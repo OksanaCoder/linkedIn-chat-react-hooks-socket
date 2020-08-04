@@ -82,9 +82,13 @@ function App() {
         <ul id="messages" style={{  height:'93%', listStyle: "none", padding: "40px"}}>
           {messages.map((msg, i) => (
         
-            <li key={i} style={{display: 'flex', justifyContent:'flex-start'}}>
-              <strong>{msg.user}</strong> {msg.message}
+       
+            <li key={i} style={{display: 'flex', justifyContent:'flex-start', alignItems: 'center', marginTop:'15px'}}>
+               <small style={{ backgroundColor : '#F5F5F5', padding: '10px 20px', width: '30%', borderRadius: '20px', color: '#000'}}>  {msg.message} </small>
+               <strong className='text-muted ml-3'>{msg.user}</strong> 
             </li>
+
+            
           ))}
         </ul>
 
@@ -117,11 +121,11 @@ function App() {
         </div>
         <Modal show={showModal} onHide={toggleModal}>
           <Modal.Header>
-            <Modal.Title>Modal title</Modal.Title>
+            <Modal.Title>Hey, there !</Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <Form.Group>
-              <Form.Label>Hey, there !</Form.Label>
+              {/* <Form.Label>Hey, there !</Form.Label> */}
               <Form.Control type="text" placeholder="Enter your name" onChange={(e) => setUsername(e.target.value)} />
             </Form.Group>
             <Modal.Footer>
