@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.col {
+  background-color: #fff !important;
+}
+body {
+  font-family: 'Indie Flower', cursive;
+  background: #F5F5F5 !important;
+}
+.navbar-linked {
+  background-color: #293E4A !important;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -12,7 +19,10 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.btn-send {
+   background: transparent !important;
+   border: none !important;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
