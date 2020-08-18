@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/linkedIn-chat-react-socket/static/css/main.7fd9ff7e.chunk.css",
+    "main.js": "/linkedIn-chat-react-socket/static/js/main.66660182.chunk.js",
+    "main.js.map": "/linkedIn-chat-react-socket/static/js/main.66660182.chunk.js.map",
+    "runtime-main.js": "/linkedIn-chat-react-socket/static/js/runtime-main.4020eda1.js",
+    "runtime-main.js.map": "/linkedIn-chat-react-socket/static/js/runtime-main.4020eda1.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/linkedIn-chat-react-socket/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.2d457ba8.chunk.js": "/linkedIn-chat-react-socket/static/js/2.2d457ba8.chunk.js",
+    "static/js/2.2d457ba8.chunk.js.map": "/linkedIn-chat-react-socket/static/js/2.2d457ba8.chunk.js.map",
+    "index.html": "/linkedIn-chat-react-socket/index.html",
+    "precache-manifest.f0ccebe09b7f56fb01fb21f84fddc906.js": "/linkedIn-chat-react-socket/precache-manifest.f0ccebe09b7f56fb01fb21f84fddc906.js",
+    "service-worker.js": "/linkedIn-chat-react-socket/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/linkedIn-chat-react-socket/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.7fd9ff7e.chunk.css.map": "/linkedIn-chat-react-socket/static/css/main.7fd9ff7e.chunk.css.map",
+    "static/js/2.2d457ba8.chunk.js.LICENSE.txt": "/linkedIn-chat-react-socket/static/js/2.2d457ba8.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/linkedIn-chat-react-socket/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4020eda1.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.2d457ba8.chunk.js",
+    "static/css/main.7fd9ff7e.chunk.css",
+    "static/js/main.66660182.chunk.js"
+  ]
+}
